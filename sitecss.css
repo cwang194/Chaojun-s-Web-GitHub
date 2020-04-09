@@ -1,0 +1,101 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: CHAOJUN WANG
+Dated: 2020-03-20
+********************************************************************/
+
+p { 
+    font-size:20px;
+    color:rgb(184, 11, 118);
+}
+
+.main{
+	max-width:1000px;
+	margin:0 auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+span{
+    color:red;
+}
+
+
+P:hover{
+
+    color:red;
+}
+
+#First {
+    color:black;
+    background-color:#cccccc;
+
+}
+
+nav {
+    height: 40px;
+    background: #343434;
+    border: #000 solid 1px;
+}
+
+nav ul {
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 0 0 -10px;
+	padding:0px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 10px 12px 13px 12px;
+    display: block;
+    line-height: 40px;
+    font: 95% Tahoma, sans-serif;
+    color: #ddd;
+    text-decoration: none;
+}
+
+
+h2 {
+    color:rgb(0, 119, 255);
+}
+
+
+h2:hover{
+    color:red;
+}
+
+
+img{
+    width:450px;height:450px
+}
+
+#aaa{
+    color: darkgray;
+    height: 20px;
+    background: #343434;
+    border: #000 solid 1px;
+}
+
+
+
+
+
+  
+@media (max-width: 960px){
+    body{
+        background: #000;
+    }
+
+    nav{
+
+        font-size: 10px;
+    }
+
+
+    img{max-width: 100%;height: auto;width: auto\9;}
+}
